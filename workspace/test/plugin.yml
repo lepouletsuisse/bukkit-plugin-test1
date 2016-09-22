@@ -1,0 +1,47 @@
+main: com.gmail.xxpoulletxx.test.test
+name: test
+version: 1.0
+author: LePouletSuisse0
+commands:
+  message:
+    description: Perform this command to send a private message to a player.
+    usage: /<command> <player> <message>
+    permission: test.message
+    permission-message: You don't have permissison
+  setonmoveblock:
+    description: Perform this command to change the block at 5 Y from you.
+    usage: /<command> <on/off> <material> <numberY>
+    permission: test.setonmoveblock
+    permission-message: You don't have permission
+  enchantitem:
+    description: Perform this command to give a object
+    usage: /<command> <material/add/remove/list> <enchantment ID> <enchantment level> [name] [lore]
+    permission: test.enchantitem
+    permission-message: You don't have permission
+  entity:
+    description: Perform this command to kill entities nest the player player.
+    usage: /<command> [kill] <distance>
+    permission: test.entity
+    permission-message: You don't have permissison
+  block:
+    description: Perform this command to manipulate the block that you are looking.
+    usage: /<command> [break/add/change/get] <radius/number>
+    permission: test.block
+    permission-message: You don't have permissison
+  tr:
+    description: Perform this command to send the item you got in the hand to a other player(Has to be near of 10 blocks).
+    usage: /<command> <PlayerName>
+    permission: test.tr
+    permission-message: You don't have permissison
+  test:
+    description: Only a test command, don't use it!
+    usage: /<command> <something>
+    permission: test.test
+    permission-message: You don't have permissison
+  blockfind:
+    description: Find a kind of block in the specified area
+    usage: /<command> <Material> <Radius>
+    permission: test.blockfind
+    permission-message: You don't have permissison
+    
+  
